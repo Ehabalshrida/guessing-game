@@ -123,12 +123,12 @@ let guess = Number(prompt('guess one of three values,my day of birth,last 3 numb
 let listOfdata = [515 , 2011 , 24 ];
 let n;
 let j;
-for (n = 0 ; n < 6 ; n++){
+lable: for (n = 0 ; n < 6 ; n++){
   for (j = 0 ; j < 3 ; j++ ) {
     if (guess === listOfdata[j]){
       alert('you have insert correct answer');
       finalScore++;
-      break ;}
+      break lable ;}
 
   }
   guess = Number(prompt('guess one of three values,my day of birth,last 3 numbers of my cell phone ,my graduation year'));
