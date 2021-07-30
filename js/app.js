@@ -19,16 +19,13 @@ function known(){
   case 'y':
     alert ('So happy to hear that');
     finalScore++;
-    // console.log(known);
     break;
   case 'no':
   case 'n':
     alert('I hope we get the opportunity to meet you ');
-    // console.log(known);
     break;
   default:
     alert('You didnt answer');
-        //console.log(known);
   }
 }
 function programer(){
@@ -38,16 +35,13 @@ function programer(){
   case 'y':
     alert ('So we are  colleagues');
     finalScore++;
-    // console.log(programer);
     break;
   case 'no':
   case 'n':
     alert('i hope you will be best programmer in the future');
-    // console.log(programer);
     break;
   default:
     alert('You didnt answer ');
-        //console.log(programer);
   }}
 function fan(){
   let fan = prompt ('Do you like football ?', 'your answer should be in UpperCase');
@@ -56,16 +50,13 @@ function fan(){
   case 'Y':
     alert ('i like it also');
     finalScore++;
-    // console.log(fan);
     break;
   case 'NO':
   case 'N':
     alert('you have to watch one match to change your opinion');
-    // console.log(fan);
     break;
   default:
     alert('You didnt answer ');
-          //console.log(fan);
   }}
 function web(){
   let web = prompt ('Do you like my web page ?', 'your answer should be in UpperCase');
@@ -74,16 +65,13 @@ function web(){
   case 'Y':
     alert ('Thanks you ');
     finalScore++;
-    // console.log(web);
     break;
   case 'NO':
   case 'N':
     alert('your comments will help me to do the best');
-    // console.log(web);
     break;
   default:
     alert('You didnt answer');
-            //console.log(web);
   }}
 function stay(){
   let stay = prompt ('Do you like to stay in contact ? ', 'your answer should be in UpperCase');
@@ -92,16 +80,13 @@ function stay(){
   case 'Y':
     alert ('Thanks i am so happy to hear that ');
     finalScore++;
-    // console.log(stay);
     break;
   case 'NO':
   case 'N':
     alert('I Respect your decision   :) ');
-    // console.log(stay);
     break;
   default:
     alert('You didnt answer');
-            //console.log(stay);
   }}
 
 alert('Thanks for your answers  '+ userName);

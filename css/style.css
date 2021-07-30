@@ -5,7 +5,10 @@ footer{
   
   
   body {
-  
+      border-bottom: tomato;
+      border-right: tomato;
+      border-left: tomato;
+      border-top: tomato;
       background-color:blue;
     
     }
